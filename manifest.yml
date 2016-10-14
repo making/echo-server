@@ -1,0 +1,6 @@
+applications:
+- name: echo-server
+  routes:
+  - route: tcp.local.pcfdev.io:61001
+  buildpack: go_buildpack
+  memory: 8m
